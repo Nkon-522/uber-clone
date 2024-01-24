@@ -36,7 +36,23 @@
           />
         </div>
 
-        
+        <div
+          class="
+            w-full
+            bg-custom-color
+            h-14
+            rounded-full
+            flex
+            items-center
+            p-3
+          "
+        >
+          <MagnifyIcon size="40" />
+          <div class="ml-3 text-xs font-semibold text-gray-700">
+            Enter pick-up point
+          </div>
+        </div>
+
       </div>
     </div>
   </main>
@@ -45,4 +61,14 @@
 <script setup>
   import ServiceSelectLarge from '../components/ServiceSelectLarge.vue';
   import ServiceSelectSmall from '../components/ServiceSelectSmall.vue';
+
+  import MagnifyIcon from 'vue-material-design-icons/Magnify.vue'
 </script>
+
+<style lang="scss" scoped>
+  #Home {
+    .bg-custom-color {
+      background-color: rgb(237, 237, 237);
+    }
+  }
+</style>
