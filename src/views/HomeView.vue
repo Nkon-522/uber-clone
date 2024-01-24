@@ -95,7 +95,7 @@
 
   import MagnifyIcon from 'vue-material-design-icons/Magnify.vue';
   import HomeIcon from 'vue-material-design-icons/Home.vue';
-  import MapMarkerIcon  from 'vue-material-design-icons/MapMarker.vue';
+  import MapMarkerIcon from 'vue-material-design-icons/MapMarker.vue';
 </script>
 
 <style lang="scss" scoped>
